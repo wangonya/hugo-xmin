@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Quicksand:wght@500&family=Space+Mono&display=swap');
 
 html {
   font-size: 14px
@@ -13,7 +13,7 @@ body {
   font-size: 1rem;
   line-height: 1.5rem;
   margin: 0;
-  font-family: "Open Sans", Verdana, Geneva, sans-serif;
+  font-family: 'Quicksand', sans-serif;
   word-wrap: break-word;
 }
 
@@ -118,7 +118,7 @@ body {
 
 #content {
   margin: 0 auto;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   max-width: 38rem;
 }
 
@@ -145,15 +145,14 @@ pre {
   box-shadow: none;
   padding: 10px;
   margin: 0 0 1.15rem;
-  font-family: "Space Mono", Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  font-family: 'IBM Plex Mono', monospace;
   font-size: 0.85rem;
   line-height: 1.15rem;
-  display: inline-block;
-  background: #fafafa;
+  /*background: #fafafa;*/
 }
 
 p code {
-  font-family: "Space Mono", Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  font-family: 'IBM Plex Mono', monospace;
   color: #333;
   font-size: 0.9em;
   background: #f6f6f6;
@@ -303,4 +302,13 @@ blockquote p:last-child {
 
 .silver-link:hover {
   color: rgb(90, 90, 90);
+}
+
+#post-meta {
+  color: #CCC;
+  float: right;
+  text-align: right;
+  font-size: 0.8em;
+  line-height: 0.95em;
+  padding-right: 10px;
 }
