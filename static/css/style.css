@@ -37,7 +37,8 @@ pre {
   margin: 1.75rem 0;
   background-color: #fff;
   border: 1px solid #ccc;
-  overflow: auto
+  overflow: auto;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 code[class*=language-],
@@ -45,7 +46,8 @@ pre[class*=language-],
 pre code {
   font-weight: 100;
   text-shadow: none;
-  margin: 1.75rem 0
+  margin: 1.75rem 0;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 a {
