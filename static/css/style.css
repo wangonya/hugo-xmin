@@ -132,7 +132,7 @@ body {
   /* padding-bottom: 10px; */
   /* max-width: 38rem; */
   font-size: 15px;
-  line-height: 1.8em;
+  line-height: 1.4em;
   word-wrap: break-word;
 }
 
@@ -166,6 +166,14 @@ pre {
 }
 
 p code {
+  font-family: Consolas, monaco, monospace;
+  color: #333;
+  font-size: 0.9em;
+  background: #f6f6f6;
+  padding: 2px 4px;
+}
+
+li code {
   font-family: Consolas, monaco, monospace;
   color: #333;
   font-size: 0.9em;
