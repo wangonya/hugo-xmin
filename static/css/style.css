@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&family=Roboto&family=Roboto+Mono&display=swap');
 
 * {
   -webkit-box-sizing: border-box;
@@ -16,7 +16,7 @@ body {
   line-height: 20px;
   font-weight: normal;
   font-style: normal;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'Roboto', sans-serif;
   color: #333333;
   padding: 20px;
   margin: 0;
@@ -45,10 +45,11 @@ fieldset {
 pre {
   padding: 2rem;
   margin: 1.75rem 0;
-  background-color: #fff;
+  background-color: #fafafa !important;
   border: 1px solid #ccc;
   overflow: auto;
-  font-family: Consolas, monaco, monospace;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 0.75rem !important;
 }
 
 code[class*=language-],
@@ -57,7 +58,7 @@ pre code {
   font-weight: 100;
   text-shadow: none;
   margin: 1.75rem 0;
-  font-family: Consolas, monaco, monospace;
+  font-family: 'Roboto Mono', monospace;
 }
 
 a {
@@ -132,7 +133,7 @@ body {
   /* padding-bottom: 10px; */
   /* max-width: 38rem; */
   font-size: 15px;
-  line-height: 1.4em;
+  line-height: 1.45em;
   word-wrap: break-word;
 }
 
@@ -159,14 +160,14 @@ pre {
   box-shadow: none;
   padding: 10px;
   margin: 0 0 1.15rem;
-  font-family: Consolas, monaco, monospace;
+  font-family: 'Roboto Mono', monospace;
   font-size: 0.8rem;
   line-height: 1.15rem;
   /*background: #fafafa;*/
 }
 
 p code {
-  font-family: Consolas, monaco, monospace;
+  font-family: 'Roboto Mono', monospace;
   color: #333;
   font-size: 0.9em;
   background: #f6f6f6;
@@ -174,7 +175,7 @@ p code {
 }
 
 li code {
-  font-family: Consolas, monaco, monospace;
+  font-family: 'Roboto Mono', monospace;
   color: #333;
   font-size: 0.9em;
   background: #f6f6f6;
