@@ -7,7 +7,7 @@
 {{ .Content }}
 
 <div id="content" class="homepage">
-    <h3>Posts</h3>
+    <h3 style="margin: 0px !important">Posts</h3>
     <ul>
         {{ $pages := .Pages }}
         {{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }}
@@ -18,3 +18,5 @@
         {{ end }}
     </ul>
 </div>
+
+<small><p>More of my posts are on <a href="https://dev.to/wangonya">Dev.to</a></p></small>
