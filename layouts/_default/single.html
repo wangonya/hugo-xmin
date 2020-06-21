@@ -7,7 +7,7 @@
 
 {{ if (gt .Params.date 0) }}
 <div id="post-meta">
-    <p class="date">{{ .Lastmod }}</p>
+    <p class="date">{{ .Date.Format "January 2, 2006" }}</p>
 </div>
 {{ end }}
 
