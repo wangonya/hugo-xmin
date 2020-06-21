@@ -77,7 +77,8 @@ p {
 }
 
 .container {
-  max-width: 70rem
+  max-width: 750px;
+  text-align: justify;
 }
 
 .container,
