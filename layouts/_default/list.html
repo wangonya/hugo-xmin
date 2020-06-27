@@ -6,17 +6,17 @@
 
 {{ .Content }}
 
-<div id="content" class="homepage">
-    <h3 style="margin: 0px !important">Posts</h3>
-    <ul>
+<article>
+    <ul class="list">
         {{ $pages := .Pages }}
         {{ if .IsHome }}{{ $pages = .Site.RegularPages }}{{ end }}
         {{ range (where $pages "Section" "!=" "") }}
-        <li>
-	    <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+        <li class="list__item">
+            <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+            <time>{{ .Date.Format "January 2, 2006" }}</time>
         </li>
         {{ end }}
     </ul>
-</div>
+</article>
 
 <small><p>More of my posts are on <a href="https://dev.to/wangonya">Dev.to</a></p></small>
