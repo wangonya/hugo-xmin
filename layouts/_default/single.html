@@ -1,6 +1,7 @@
 {{ partial "header.html" . }}
 <article>
 <h1>{{ .Title | markdownify }}</h1>
+    <small><em>{{ .Date.Format "January 2, 2006" }}</em></small>
 {{ .Content }}
     <div style="margin-bottom: 30px">
     <a href="/">⟵ home</a>
